@@ -9,4 +9,12 @@ document.getElementById("demo2").innerHTML = "john" + " " + "Doe";
          x = 5;
          y = 6;
          z = x + y;
-         document.getElementById("demo4").innerHTML = "The value of z is" + z; 
+         document.getElementById("demo4").innerHTML = "The value of z is " + z; 
+
+ //codeblock examples
+ function myFunction(){
+     document.getElementById("demo5").innerHTML = "Hello World!"; 
+     document.getElementById("demo6").innerHTML = "How are you?";
+ }
+
+myFunction(); //this calls the fucntion to run the code block
